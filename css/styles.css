@@ -191,9 +191,23 @@ letter-spacing: 0.06em;
 }
 .bgc{
     background-color: #2F303A;
-    background-image: url();
     padding: 200px 0;
 }
+
+.hero{
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;  
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/hero/Img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 /* ____________________наші переваги___________________ */
 .about{
     padding-bottom: 0;
