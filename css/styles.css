@@ -118,10 +118,7 @@ text-align: center;
     .site-contacts .link:focus{
         color: var(--accent-color);
     }
-    .bgc{
-        background-color: #2F303A;
-        padding: 200px 0;
-    }
+    
 
     /* ___________________футер__________________________ */
 .footer{
@@ -192,6 +189,11 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
 }
+.bgc{
+    background-color: #2F303A;
+    background-image: url();
+    padding: 200px 0;
+}
 /* ____________________наші переваги___________________ */
 .about{
     padding-bottom: 0;
@@ -208,7 +210,6 @@ letter-spacing: 0.06em;
 .list .title{
     margin: 0;
 }
-
 .section .title{
 font-size: 14px;
 line-height: 1.14;
@@ -218,6 +219,16 @@ color: var(--title-text-color);
     margin-top: 10px;
 line-height: 1.71;
 }
+.icon-antena{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
 
 /* _______________Чим ми займаємося________________ */
 .project-flex{
