@@ -16,7 +16,7 @@
     <!-- _____________хедер__________ -->
     <header class="header">
         <div class="container header-flex">
-            <a href="./index.html" class="logo link"><span class="logo-web">Web</span>Studio</a>
+            <a href="./index.html" class="logo link"><span class="logo-web">Web</span>Studio</a>    
             <nav>
                 <ul class="site-nav list">
                     <li class="item"><a href="./index.html" class="link current">Студія</a></li>
@@ -24,14 +24,24 @@
                     <li class="item"><a href="" class="link">Контакти</a></li>
                 </ul>
                 </nav>
-                    <ul class="site-contacts list">
-                        <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                        <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-                    </ul>
-            </div>
+                <ul class="site-contacts list">
+                    <div>
+                        <svg class="contact-icon">
+                            <use href="./images/svg/sprite.svg#icon-envelope" width="16" height="12"></use>
+                        </svg>
+                        </div>
+                    <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                    <div>
+                        <svg class="tel-icon">
+                            <use href="./images/svg/sprite.svg#icon-smartphone" width="10" height="16"></use>
+                        </svg>
+                    </div>
+                    <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                </ul>
+        </div>
     </header>
+
     <main>
-<div class="page"></div>
         <!--____________герой_____________-->
         <section class="hero bgc section">
             <div class="container">
@@ -48,19 +58,39 @@
                 <H2 hidden>Наші переваги</H2>
                     <ul class="list advantages-flex">
                         <li class="item">
-                            <div class="icon-antena"></div>
+                            <div class="about-icon">
+                                <svg class="icon">
+                                    <use href="./images/svg/sprite.svg#icon-antenna-1" width="70" height="70"></use>
+                                </svg>
+                            </div>
+                            
                             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
                             <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
                         <li class="item">
+                            <div class="about-icon">
+                                <svg class="icon">
+                                    <use href="./images/svg/sprite.svg#icon-clock-1" width="70" height="70"></use>
+                                </svg>
+                            </div>
                             <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
                             <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
                         <li class="item">
+                            <div class="about-icon">
+                                <svg class="icon">
+                                    <use href="./images/svg/sprite.svg#icon-diagram-1" width="70" height="70"></use>
+                                </svg>
+                            </div>
                             <h3 class="title">ПЛАНУВАННЯ</h3>
                             <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
                         <li class="item">
+                            <div class="about-icon">
+                                <svg class="icon">
+                                    <use href="./images/svg/sprite.svg#icon-astronaut-1" width="70" height="70"></use>
+                                </svg>
+                            </div>
                             <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                             <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
@@ -89,6 +119,28 @@
                     <li class="item"><img src="./images/team/img1.jpg" alt="Бородань в окулярах" width="270" height="260">
                         <h3 class="team-title">Ігор Дем'яненко</h3>
                         <p class="team-text" lang="en">Product Designer</p>
+                        <ul class="list team-social">
+                            <li>
+                                <svg class="team-icon">
+                                    <use href="./images/svg/sprite.svg#icon-instagram-2" width="20" height="20"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg class="team-icon">
+                                    <use href="./images/svg/sprite.svg#icon-twitter-1" width="20" height="20"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg class="team-icon">
+                                    <use href="./images/svg/sprite.svg#icon-facebook-1" width="20" height="20"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg class="team-icon">
+                                    <use href="./images/svg/sprite.svg#icon-linkedin-1" width="20" height="20"></use>
+                                </svg>
+                            </li>
+                        </ul>
                     </li>
                     <li class="item"><img src="./images/team/img2.jpg" alt="Блондинка в окулярах" width="270" height="260">
                         <h3 class="team-title">Ольга Рєпіна</h3>

@@ -118,6 +118,17 @@ text-align: center;
     .site-contacts .link:focus{
         color: var(--accent-color);
     }
+    .contact-icon{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+    }
+    .tel-icon{
+        width: 10px;
+        height: 16px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
     
 
     /* ___________________футер__________________________ */
@@ -233,16 +244,15 @@ color: var(--title-text-color);
     margin-top: 10px;
 line-height: 1.71;
 }
-.icon-antena{
+.about-icon{
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
+    background-color: #F5F4FA;
 }
-
+.about-icon .icon{
+   margin: 25px 100px;
+}
 
 /* _______________Чим ми займаємося________________ */
 .project-flex{
@@ -256,6 +266,14 @@ line-height: 1.71;
 
 
 /* _____________________наша команда________________________ */
+.team-social{
+    display: flex;
+    
+}
+.team-icon{
+    width: 44px;
+    height: 44px;
+}
 .team{
     background-color: #F5F4FA;
 }
