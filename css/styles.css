@@ -270,12 +270,7 @@ letter-spacing: 0.06em;
 .list .title{
     margin: 0;
 }
-.section .title{
-    margin-top: 30px;
-font-size: 14px;
-line-height: 1.14;
-color: var(--title-text-color);
-}
+
 .section .text{
     margin-top: 10px;
 line-height: 1.71;
@@ -452,7 +447,6 @@ margin-right: 0;
 
 
 .galery .title{
-    padding-top: 20px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
